@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+	
+<AnchorPane prefHeight="512" prefWidth="768" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CoverPageController">  <!-- AnchorPane is used as the root layout for the scene -->
+    <children>  <!-- Container for all child elements of the AnchorPane -->
+        <ImageView fx:id="coverImage" fitHeight="512" fitWidth="768" layoutX="0.0" layoutY="0.0" preserveRatio="true" />  <!-- ImageView is used to display the cover page image -->
+        <!-- The fx:id attribute connects this ImageView to the SampleController -->
+        <!-- fitWidth and fitHeight control the image's size within the view -->
+        <!-- preserveRatio ensures the image keeps its aspect ratio when resized -->
+    </children>
+</AnchorPane>
