@@ -1,4 +1,4 @@
-# Optimization-Strategies-for-Local-Package-Delivery-Operations
+# Optimization-Strategies-for-Local-Package-Delivery-Operations(Delivra)
 This project focuses on optimizing the daily operations of a small local package delivery shop. Every day, the shop receives multiple packages, each with a destination, a weight, and a priority level (1 to 5, where 1 is the highest priority). The goal is to assign these packages to a limited number of delivery vehicles and plan the delivery routes in a way that reduces the total distance traveled, while also giving preference to delivering high-priority packages earlier.
 
 Each vehicle has a limited carrying capacity, so the assignment must make sure that no vehicle is overloaded. The challenge is to find a good balance between two goals: minimizing the total travel distance (to reduce cost) and delivering high-priority packages as early as possible. This balance is important to ensure both efficiency and quality of service.
