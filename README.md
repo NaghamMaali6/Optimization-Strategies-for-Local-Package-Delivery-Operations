@@ -49,4 +49,4 @@ The reason I chose this cost function design is to strike a balance between diff
 
 The values I used (0.1 for the priority penalty and 0.05 for the load balance penalty) were chosen after experimenting and observing how the algorithm behaves. I wanted the route distance to remain the most important factor, so the penalties had to be smaller but still strong enough to influence the decision-making. If the priority penalty was too high, the algorithm would start making poor decisions just to deliver important packages first. If it was too low, it would completely ignore them. The same applies to the load balance: a gentle penalty (0.05) helps keep the load reasonable without making the algorithm obsess over perfect balance. This mix leads to more flexible, realistic, and high-quality solutions, especially in real-world delivery scenarios where perfect optimization isn’t always practical.
 
-for more information and Details: check the Report.pdf file
+for more information and Details: check the Report.docx file
